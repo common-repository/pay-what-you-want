@@ -1,0 +1,27 @@
+.bw-single-price-area{
+	margin: 20px 0;
+}
+.bw-btn-price {
+    display: inline-block;
+    margin-right: 5px;
+}
+.bw-select-price button {
+    margin-bottom: 10px;
+    min-height: 40px;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px;
+}
+
+.bw-select-price .my-price {
+    margin-bottom: 10px;
+    min-height: 40px;
+    min-width: 150px;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.bw-btn-price.price-selected {
+    border: 1px dashed;
+}

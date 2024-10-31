@@ -1,0 +1,48 @@
+.pwyw-open{
+  display: none;
+  margin: 10px 0;
+}
+.checked .pwyw-open{
+  display: block;
+}
+.price-set-input {
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+}
+.pwyw-remove {
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: -6px;
+    top: -9px;
+    z-index: 1;
+    border: 1px solid #8c8f94;
+    color: #8c8f94;
+    font-size: 12px;
+}
+#pwyw-add-price {
+    background: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #135e96;
+    color: #135e96;
+    cursor: pointer;
+}
+
+#woocommerce-product-data ul.wc-tabs li.pwyw-tab_tab a:before { font-family: WooCommerce; content: '\e01d'; }
+.woocommerce_options_panel .price-set-input input[type=number]{
+    width: unset;
+}
+.woocommerce_options_panel .pwyw-price-box{
+    padding: 5px 20px 5px 162px!important;
+    margin: 9px 0;
+}
